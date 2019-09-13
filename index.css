@@ -1,0 +1,47 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background-size: cover;
+    background-color: black;
+    color: white;
+} 
+#myBtn {
+    position:relative; /* Fixed/sticky position */
+    margin-left:41%;
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: white; /* Set a background color */
+    color: black; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    width:18%;
+}
+#abtbtn{
+    position:relative; /* Fixed/sticky position */
+    margin-left:35%;
+    border: none; /* Remove borders */
+    outline: none;
+    background-color: black; 
+    color:white;
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    font-size: 24px; /* Increase font size */
+    height:80px;
+    width:30%;
+}
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+#abtbtn:hover{
+    font-size: 28px;
+}
+.change ul{
+        display: block;
+}
+a{
+    color:white;
+    text-decoration: none;
+}

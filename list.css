@@ -1,0 +1,45 @@
+ul {
+    display: none;
+    list-style: none;
+    padding: 0;
+    font-size: 20px;
+
+}
+ul li{ 
+    height: 30px;
+    width: 200px;
+    border-bottom: 1px solid rgb(191, 199, 191);
+    background-color: black;
+    border-radius: 5%;
+}
+ul li a{
+    padding: 10px;
+}
+ul li:hover{
+    background-color: green;
+    font-size: 22px;
+}
+ul li.li1{
+      animation-name: list;
+      animation-duration: 0.2s;
+}
+ul li.li2{
+    animation-name: list;
+    animation-duration: 0.4s;
+}
+ul li.li3{
+    animation-name: list;
+    animation-duration: 0.6s;
+}
+ul li.li4{
+  animation-name: list;
+  animation-duration: 0.8s;
+}
+ul li.li5{
+    animation-name: list;
+    animation-duration: 1s;
+}
+@keyframes list{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
