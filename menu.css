@@ -1,7 +1,15 @@
+.logodiv{
+    padding:0px;
+    position: fixed;
+    left: 48%;
+    margin-top: -65px;
+    /*border: 1px dotted blue;*/
+}
 .menudiv {
     background-color: black;
     color: white;
     position: -webkit-sticky;
+    /*border: 1px dotted white;*/
     position: sticky;
     top: 0;
     height: 50px;
@@ -10,13 +18,13 @@
 .icondiv{
     display: inline-block;
     cursor: pointer; 
-    margin-left: 5px;
+    /*border: 1px dotted yellow;*/
 }
 .bar1, .bar2, .bar3 {
     width: 35px;
     height: 5px;
     background-color: white;
-    margin: 6px 0;
+    margin: 6px;
     transition: 0.4s;
 } 
 /* Rotate first bar */
@@ -36,13 +44,7 @@
 .change .uldiv{
     display: block;
 }
-.logodiv{
-    position: absolute;
-    height:50px;
-    width:50px;
-    margin-left:48%;
-    margin-top: -50px;
-}
+
 .loader-frame{
     width: 40pX;
     height: 40PX;
